@@ -1,0 +1,21 @@
+{
+    "dependencies": {
+        "babel-core": "^6.0.0",
+        "babel-loader": "^6.0.0",
+        "babel-preset-env": "^1.4.0",
+        "bootstrap": "4.0.0-alpha.6",
+        "css-loader": "^0.25.0",
+        "file-loader": "^0.9.0",
+        "http-server": "^0.10.0",
+        "node-sass": "^4.5.0",
+        "sass-loader": "^5.0.1",
+        "style-loader": "^0.17.0",
+        "webpack": "^2.4.0"
+    },
+    "scripts": {
+        "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules",
+        "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules",
+        "serve": "NODE_ENV=development node_modules/http-server/bin/http-server",
+        "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules"
+    }
+}
